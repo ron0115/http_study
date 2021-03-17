@@ -8,7 +8,7 @@ os=`uname`
 
 # os = Darwin = macOS
 if [ $os != "Linux" ] ; then
-    openresty="/usr/local/bin/openresty"
+    openresty="/opt/homebrew/Cellar/openresty/1.19.3.1_1/bin/openresty"
 fi
 
 # openresty needs ./logs
