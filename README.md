@@ -25,3 +25,18 @@ export OPENSSL_HOME=/opt/homebrew/Cellar/openssl@1.1/1.1.1j
 ```
 tcp.port==80
 ```
+
+4. telnet
+
+```sh
+telnet
+
+open www.chrono.com 80
+
+# press ctrl + ] ; press enter
+
+# into edit mode
+
+GET /16-1 HTTP/1.1
+Host: www.chrono.com
+```
